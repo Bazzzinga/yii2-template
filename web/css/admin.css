@@ -1,0 +1,28 @@
+.admin-tab {
+    margin: 5px 0;
+}
+
+.admin-tab>h3 {
+    cursor: pointer;
+    background-color: #e8e8e8;
+    padding: 5px 25px;
+    border-radius: 3px;
+    margin:0;
+}
+
+.admin-tab>.row {
+    display:none;
+    transition-duration: 0.4s;
+}
+.admin-tab.active>.row {
+    display:block;
+}
+
+iframe {
+    border:none;
+    min-height: 80vh!important;
+}
+
+button.close.fileinput-remove {
+    display: none;
+}
