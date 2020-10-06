@@ -31,3 +31,4 @@ tests/_support/_generated
 composer.lock
 config/db.php
 web/uploads/
+/docker/logs/
